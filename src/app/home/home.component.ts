@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { empty } from 'rxjs';
 
 @Component({
   selector: 'app-home',
@@ -11,6 +12,11 @@ export class HomeComponent implements OnInit{
   constructor(){}
 
   ngOnInit(): void {
+  }
+
+  public resetName(): void {
+    this.name = '';
+    this.age = 0;
 
   }
 

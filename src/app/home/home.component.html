@@ -1,7 +1,15 @@
 <h1>Day la ban {{name}}</h1>
-<input [value]="name" title="Day la {{name}}"/>
+<h1>Age {{age}}</h1>
+
 <br/>
 
-<h2 *ngIf = "age > 18" >Ban qua so tuoi</h2>
-<h2 *ngIf = "age <= 18" >Ban qua so tuoi</h2>
+<input placeholder="Ten:" [(ngModel)]="name" title="Day la {{name}}"/>
+<br/>
 
+<input *ngIf="age >= 18"  placeholder="Tuoi" [(ngModel)]="age" title="So tuoi {{age}}" />
+
+
+<br/>
+<br/>
+
+<button (click)="resetName()">reset</button>
