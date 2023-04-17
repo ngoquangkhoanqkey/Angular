@@ -1,2 +1,7 @@
 <h1>Day la ban {{name}}</h1>
 <input [value]="name" title="Day la {{name}}"/>
+<br/>
+
+<h2 *ngIf = "age > 18" >Ban qua so tuoi</h2>
+<h2 *ngIf = "age <= 18" >Ban qua so tuoi</h2>
+
