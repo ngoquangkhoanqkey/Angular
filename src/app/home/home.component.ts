@@ -17,6 +17,8 @@ export class HomeComponent implements OnInit{
   constructor(){}
 
   public ngOnInit(): void {
+    console.log(this.feshfood2);
+    
   }
 
 }
