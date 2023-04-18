@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-  public loginName = 'user'
+  public loginName = 'user';
+  public myColor = 'red';
 
   constructor(){}
   ngOnInit(): void {
