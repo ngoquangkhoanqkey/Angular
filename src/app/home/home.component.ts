@@ -16,11 +16,7 @@ export class HomeComponent implements OnInit{
 
   public resetName(): void {
     this.name = '';
-  }
-
-  public disabled (){
+    console.log('name reset');
     
   }
-
-
 }
