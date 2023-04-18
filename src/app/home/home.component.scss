@@ -1,3 +1,16 @@
 .yourName {
     color: orange;
 }
+
+.table, th, td {
+    border:1px solid black;
+    min-width: 150px;
+}
+
+.right {
+    text-align: right;
+}
+
+.nagative {
+    color: orange;
+}
