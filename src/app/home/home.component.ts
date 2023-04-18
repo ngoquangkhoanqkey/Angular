@@ -16,8 +16,11 @@ export class HomeComponent implements OnInit{
 
   public resetName(): void {
     this.name = '';
-    this.age = 0;
-
   }
+
+  public disabled (){
+    
+  }
+
 
 }
