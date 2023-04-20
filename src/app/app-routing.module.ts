@@ -7,6 +7,7 @@ import { TemplateDrivenFormComponent } from './template-driven-form/template-dri
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 import { GetDataComponent } from './get-data/get-data.component';
 import { PostDataComponent } from './post-data/post-data.component';
+import { ParrentComponent } from './parrent/parrent.component';
 
 const routes: Routes = [
   { path: 'about', component: AboutComponent },
@@ -17,7 +18,7 @@ const routes: Routes = [
   {path: 'postdata', component: PostDataComponent},
 
 
-  { path: '', component: HomeComponent },
+  { path: '', component: ParrentComponent },
   { path: '**', component: PageNotFoundComponent },
   
 ];
