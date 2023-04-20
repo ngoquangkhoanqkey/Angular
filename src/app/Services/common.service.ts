@@ -11,4 +11,9 @@ export class CommonService {
   public power (n: number):number {
     return n * n; 
   }
+
+  public submitData(data: any):void {
+    console.log('Sent data server', data);
+    
+  }
 }
