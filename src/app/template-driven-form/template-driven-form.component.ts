@@ -22,7 +22,6 @@ export class TemplateDrivenFormComponent implements OnInit {
   public submitForm(): void {
     // console.log('Submit Form name', this.name);
     this.common.submitData({name: this.name, age: 12})
-    
   }
 
 }
